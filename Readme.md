@@ -1,5 +1,3 @@
-```
-
 ### About the project
 This PWA uses service worker created using the [workbox-cli](https://developers.google.com/web/tools/workbox/guides/generate-service-worker/cli)
 
