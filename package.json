@@ -1,0 +1,12 @@
+{
+  "name": "workbox-pwa",
+  "version": "1.0.0",
+  "description": "PWA using workbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "cd public && lite-server"
+  },
+  "author": "Jayanth Acharya",
+  "license": "ISC"
+}
