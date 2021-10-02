@@ -22,6 +22,7 @@ This PWA uses service worker created using the [workbox-cli](https://developers.
 - `workbox-config.js` file is created, which includes configuration for source `swSrc` and destination `swDest` serviceworker file also includes details for precaching
 - Create a new file eg `sw-wb.js` file, this file will be used to write all the service worker code
 - Run `workbox injectManifest` , a service worker file will be created in the project folder (as per the setup in config file)
+- Service worker can also be created from settings in config file alone (no source js) run `workbox generateSW`
 
 
 
