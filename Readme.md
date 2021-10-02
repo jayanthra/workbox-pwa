@@ -1,3 +1,17 @@
+# Workbox PWA
+
+PWA created using [Workbox](https://developers.google.com/web/tools/workbox)
+
+### [Demo](https://angfire-dc0b5.firebaseapp.com/)
+
+### Running the project
+make sure to have [lite-server](https://www.npmjs.com/package/lite-server) installed 
+
+```
+npm run serve
+```
+
+
 ### About the project
 This PWA uses service worker created using the [workbox-cli](https://developers.google.com/web/tools/workbox/guides/generate-service-worker/cli)
 
@@ -9,7 +23,7 @@ This PWA uses service worker created using the [workbox-cli](https://developers.
 - Create a new file eg `sw-wb.js` file, this file will be used to write all the service worker code
 - Run `workbox injectManifest` , a service worker file will be created in the project folder (as per the setup in config file)
 
-### [Demo](https://angfire-dc0b5.firebaseapp.com/)
+
 
 ### Important Links
 [Service Worker Packages](https://developers.google.com/web/tools/workbox/modules)
