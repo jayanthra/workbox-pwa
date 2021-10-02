@@ -26,9 +26,9 @@ This PWA uses service worker created using the [workbox-cli](https://developers.
 
 
 ### Important Links
-[Service Worker Packages](https://developers.google.com/web/tools/workbox/modules)
-[Convert code using import statements to use workbox-sw](https://developers.google.com/web/tools/workbox/modules/workbox-sw#convert_code_using_import_statements_to_use_workbox-sw)
-[Workbox Strategies](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-strategies)
-[PWA Assets Generator](https://www.npmjs.com/package/pwa-asset-generator)
+- [Service Worker Packages](https://developers.google.com/web/tools/workbox/modules)
+- [Convert code using import statements to use workbox-sw](https://developers.google.com/web/tools/workbox/modules/workbox-sw#convert_code_using_import_statements_to_use_workbox-sw)
+- [Workbox Strategies](https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-strategies)
+- [PWA Assets Generator](https://www.npmjs.com/package/pwa-asset-generator)
 
 
