@@ -122,3 +122,26 @@ registerRoute(
 
 precacheAndRoute(self.__WB_MANIFEST);
 
+
+// vanilla js
+
+// let cachname = 'v1'
+
+// self.addEventListener('fetch', (e)=> {
+//   e.responWith(
+//     fetch(e.request).then((response) => {
+//       let respCopy = response.clone()
+
+//       caches.open(cachname).then(cache => {
+//         cache.put(e.request, respCopy)
+//       })
+
+//       return response
+//     }).catch(() => {
+//       caches.match(e.request).then(resp => {
+//         return resp
+//       })
+//     })
+//   )
+// })
+
