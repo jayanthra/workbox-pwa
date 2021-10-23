@@ -31,7 +31,7 @@ registerRoute(
 
 registerRoute(
   /https:\/\/randomuser\.me\/api\/\?results=(.+)/,
-  new CacheFirst({
+  new StaleWhileRevalidate({
     cacheName: 'users-api',
     plugins: [
       new ExpirationPlugin({

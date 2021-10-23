@@ -31,7 +31,7 @@ registerRoute(
 
 registerRoute(
   /https:\/\/randomuser\.me\/api\/\?results=(.+)/,
-  new CacheFirst({
+  new StaleWhileRevalidate({
     cacheName: 'users-api',
     plugins: [
       new ExpirationPlugin({
@@ -120,5 +120,5 @@ registerRoute(
   }),
 );
 
-precacheAndRoute([{"revision":"31f6a6d665111e33e96c3a83174b2c14","url":"css/style.css"},{"revision":"2b90dee4f4248f64a55318e7ba5b1cb4","url":"images/apple-icon-180.png"},{"revision":"354ba6b3eee294d1decef679100adcbb","url":"images/logo.png"},{"revision":"a4c7c2dfb53f4538503fdb8d6442b7fb","url":"images/manifest-icon-192.png"},{"revision":"41df444f70b6363c3e92b7c1c8425473","url":"images/manifest-icon-512.png"},{"revision":"931a898c2ad390203099f1399fcbb424","url":"index.html"},{"revision":"4d7d93c39ef3b16103a488e9f53e5145","url":"js/app.js"},{"revision":"fc798f095da596628131db67f9573d1d","url":"manifest.json"}]);
+precacheAndRoute([{"revision":"0a27a4163254fc8fce870c8cc3a3f94f","url":"404.html"},{"revision":"31f6a6d665111e33e96c3a83174b2c14","url":"css/style.css"},{"revision":"2b90dee4f4248f64a55318e7ba5b1cb4","url":"images/apple-icon-180.png"},{"revision":"354ba6b3eee294d1decef679100adcbb","url":"images/logo.png"},{"revision":"a4c7c2dfb53f4538503fdb8d6442b7fb","url":"images/manifest-icon-192.png"},{"revision":"41df444f70b6363c3e92b7c1c8425473","url":"images/manifest-icon-512.png"},{"revision":"d3e147113294f0bb1c9633cdf0a3edc6","url":"index.html"},{"revision":"4d7d93c39ef3b16103a488e9f53e5145","url":"js/app.js"},{"revision":"a876a0dcb65bc7e03f1929c205d45f1c","url":"manifest.json"}]);
 
